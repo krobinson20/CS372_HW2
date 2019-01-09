@@ -1,7 +1,7 @@
 public class Teacher extends Person implements Employee{
     private String GradeLevel;
     private String Certification; 
-
+//PT -- same as for Police
     public Teacher()
     {
         GradeLevel = "12th grade";
