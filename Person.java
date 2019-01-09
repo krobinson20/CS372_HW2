@@ -10,6 +10,8 @@ public class Person{
         name = "John";
         age= 30;
     }
+    
+    //PT -- javadoc throughout. -2
 public String toString(){
     return String.format("Persons' name is: %s" , name);
 }
@@ -19,6 +21,7 @@ public void setname(String n)
 }
 public void setage(int n)
 {
+    //PT -- make sure you're getting a valid age and phone number. -2
      age = n;
 }
 public void setnumber(int n)
