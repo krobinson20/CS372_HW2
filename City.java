@@ -1,4 +1,6 @@
+//PT -- javadoc. -2
 
+//PT -- City should be a class, and not have a main. inhabitants and buildings should be member variables for City. -3
 public class City{
     public static void main(String[] args){
     Person[] inhabitents = {new Police(), new Teacher(), new Kid()};
