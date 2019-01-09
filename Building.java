@@ -1,7 +1,8 @@
-
+//PT -- javadoc. -2
 public class Building{
 protected String name;
 protected String address;
+    //PT -- look at ArrayList, which is more flexible than arrays
 public Person[] occupants= {};
 public Building()
 {
@@ -35,6 +36,7 @@ public int sizeofArray()
 
 public Boolean IsOfficer(int i)
 {
+    //PT -- how about: return occupants[i] instanceOf Police;
     if(occupants[i] instanceof Police)
     {
         return true;
